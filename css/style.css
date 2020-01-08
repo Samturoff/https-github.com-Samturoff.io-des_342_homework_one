@@ -1,0 +1,48 @@
+body, html {
+	height: 100%;
+	padding:0; margin:0;  
+}
+blockquote {
+	margin: 20px 60px;
+	font-family: Helvetica, sans-serif;
+}
+
+header {margin-bottom: 20px;}
+
+/* ensures that your images stretch the width of their containers */
+img { width: 100%; }
+
+a { 
+	text-decoration: none;
+	 }
+
+a:hover { color: #B17A7A; }
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(20, 1fr);	
+	height:100vh;
+	width: 100%;
+	grid-gap: 5px;
+	background-color: #E8DCDC;
+}
+
+button {
+	border: 0;
+	padding: 1rem 3rem;
+	grid-column: 5 / 6;
+	grid-row: 10 / 13;
+	height: 100%;
+
+}
+
+.hide_button{
+	display: none;
+}
+
+#success {
+	background: lightgreen;
+	cursor:pointer;  
+}
+
