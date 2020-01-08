@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">	    
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">	    
     <title>Homework_1_Sam_Turoff</title>
   </head>
   <body>
@@ -13,17 +14,17 @@
 			<ul id="banner_links">
 				<li>
 					<a>			  	
-						<h2>MERCH</h2>
+						<h2 id="weirdtext">MERCH</h2>
 					</a>
 				</li>
 				<li>
 					<a>
-						<h2>SHOWS</h2>
+						<h2 id="weirdtexttwo">SHOWS</h2>
 					</a>
 				</li>
 				<li>
 					<a>
-						<h2>CONTACT</h2>
+						<h2 id="weirdtextthree">CONTACT</h2>
 					</a>
 				</li>
 			</ul>
@@ -32,8 +33,22 @@
 			<div class="logo"><b>C<span>R</span>U<span>M</span>B</b></div>
 		</div>
 		<div class="item_3">
+			<div class="background_brick">
+			</div>
 		</div>
-		<button id="success" class="hide_button" onclick="playAudio()">CLICK ME</button>
+		<div class="item_4">
+		</div>
+		<div class="item_5">
+			<header>
+ 				<video id="playmovie" playsinline="playsinline"  muted="muted">
+					<source src="css/video/video.mp4" type=video/mp4>
+					Your browser does not support the video tag.
+				</video>
+			</header>	
+		</div>
+		<div id="item_6">
+		</div>
+		<button id="success" class="button_animation" onclick="playAudio()">CLICK ME</button>
 
 		<audio id="audioID">
 			<source src="sounds/crumb.mp3" type="audio/mpeg">
